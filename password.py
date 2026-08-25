@@ -3,11 +3,11 @@ def main():
     attempt = input("Enter password: ")
     if attempt == password:
 
-    print ("Correct Password")
+        print ("Correct Password")
     print ("End of Program")
 
 
 
 
-if__name__=="__main__":
-main()
+if __name__=="__main__":
+    main()

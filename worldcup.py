@@ -10,6 +10,6 @@ def main():
         print("It's a tie.")
 
     print("gg")
-    
-if__name__=="__main__":
+
+if __name__=="__main__":
     main()
