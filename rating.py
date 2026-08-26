@@ -10,9 +10,9 @@ def main():
         print("Good")
     elif rating > 2:
         print("Fair")
-    elif rating > 1:
-        print("Poor")
     else:
+        print("Poor")
+
         print("Thanks for your opinion!")
 
 if __name__=="__main__":
