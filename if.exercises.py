@@ -31,8 +31,7 @@ def main():
 
     expression = input("Enter an arithmetic expression: ")
 
-    number1, operator, number2 =
-    expression.slit()
+    number1, operator, number2 = expression.split(" ")
 
     number1 = float(number1)
     number2 = float(number2)
@@ -40,6 +39,17 @@ def main():
     if operator == "+":
         result = number1 + number2
         print(f"{result:.1f}")
+    elif operator == "-":
+        result = number1 - number2
+        print(f"{result:.1f}")
+    elif operator == "*":
+        result = number1 * number2
+        print(f"{result:.1f}")
+    elif operator == "/":
+        result = number1 / number2
+        print(f"{result:.1f}")
+    else:
+        print("")
 
 
 
