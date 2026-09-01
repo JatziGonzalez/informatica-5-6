@@ -9,13 +9,15 @@ def main():
         print ("Tails")
     else:
         print("Heads")
-
  #_________________________
- 
+
     if guess == number:
         print ("Winner")
     else:
         print ("Loser")
+
+
+
 
 
 
