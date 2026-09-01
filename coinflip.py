@@ -10,6 +10,8 @@ def main():
     else:
         print("Heads")
 
+ #_________________________
+ 
     if guess == number:
         print ("Winner")
     else:
