@@ -1,0 +1,13 @@
+# @title
+1. Write a description for a while loop.
+ A while loop means that the function is goint to repeat itself until you put a break. 
+ Its somehting like. While this is happening is whill happen until x (a break)
+
+
+2. Write a description for a for loop.
+A for loop is going to repeat only if its inside a certain place (in range)
+
+
+3. Compare a while loop to a for loop.
+ The difference is that one is very specific loop place and the other one has a 
+ specific break for its loop
