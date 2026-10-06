@@ -1,20 +1,20 @@
 def main():
 
     def highest(a,b):
-
         if a > b:
             highest_num = a
             print(f"The highest number is {highest_num}")
         else:
-            lowest_num = b
-            print(f"The lowest number is {lowest_num})
-
-    highest_num = 8
-    highest_num = 2
+            highest_num = b
+            print(f"The highest number is {highest_num}")
 
     highest(8,2)
 
-    num1= 
+    num1 = int(input("Enter a number: "))
+    num2 = int(input("Enter a second number: "))
+
+    highest(num1,num2)
+    print()
 
 
     def lowest(a,b,c):
@@ -27,10 +27,15 @@ def main():
             print(f"The highest number is {lowest_num}")
         else:
             lowest_num = c
-            print(f"The lowest number is {lowest_num})
+            print(f"The lowest number is {lowest_num}")
 
-    lowest_num = 8
-    lowest_num = 2
+    lowest(8,2,9)
 
-    highest(8,2)
+    num3 = int(input("Enter a number: "))
+    num4 = int(input("Enter a second number: "))
+    num5 = int(input("Enter a third number: "))
 
+    lowest(num3,num4,num5)
+
+if __name__ == "__main__":
+    main()
