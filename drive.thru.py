@@ -1,5 +1,6 @@
 def main():
     print("Welcome to CHESEBURGER")
+    welcome()
     menu = ["Cheeseburger", "Fries", "Soda", "IceCream", "Cookie"]
     print(f"Here is the {menu}")
 
