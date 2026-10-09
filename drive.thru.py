@@ -8,7 +8,7 @@ def welcome():
     menu = ["Cheeseburger", "Fries", "Soda", "IceCream", "Cookie"]
     print(f"Here is the {menu}")
 
-def get_item(item):
+def get_item(meal):
 
     if meal == 1:
         print("🍔")
