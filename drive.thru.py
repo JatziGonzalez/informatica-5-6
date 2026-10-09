@@ -1,12 +1,15 @@
 def main():
     print("Welcome to CHESEBURGER")
     welcome()
+    order = int(input("Take your order, enter the number of the meal u want: ")
+    get_item(order)
+
+def welcome():
     menu = ["Cheeseburger", "Fries", "Soda", "IceCream", "Cookie"]
     print(f"Here is the {menu}")
 
+def get_item(item):
 
-
-def get_item(meal):
     if meal == 1:
         print("🍔")
     if meal == 2:
