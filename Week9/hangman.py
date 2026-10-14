@@ -6,18 +6,7 @@
 # If the user messes up -= opportunities
 # If the user guesses correctly keep the current score
 # Keep repeating the loop until the user guesses the
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+
 import random
 def main():
 
@@ -25,7 +14,11 @@ def main():
 def word(file):
     with open(file) as word_file:
         content = word_file.read().splitlines()
-        print(random.choice(content))
+        word = print(random.choice(content))
+
+        word = content
+        x = ["_"]* len(word)
+        print(f{x})
 
 
 
